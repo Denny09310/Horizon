@@ -1,4 +1,3 @@
-using Horizon.Client.Pages;
 using Horizon.Components;
 
 var builder = WebApplication.CreateBuilder(args);
