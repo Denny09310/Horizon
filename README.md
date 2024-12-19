@@ -39,13 +39,13 @@ A web app to enhance daily workflow by combining task management, time tracking,
 ## Milestones
 
 ### **1. Initial Setup**
-- [X] Set up a Blazor United project using .NET 9.
+- [X] Set up a Blazor WASM project using .NET 9.
 - [X] Create the project structure for SSR, Server Interactive, and WASM rendering.
 - [X] Configure basic routing and navigation.
 
 ### **2. Task Manager**
 - [ ] Implement CRUD operations for tasks.
-- [ ] Store tasks in a SQLite database using Entity Framework Core.
+- [ ] Store tasks in a Postgres database using Entity Framework Core.
 - [ ] Add priority levels and group tasks by day/week.
 - [ ] Render tasks interactively with Server Interactive Rendering.
 

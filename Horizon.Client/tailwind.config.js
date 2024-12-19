@@ -2,10 +2,13 @@
 module.exports = {
     content: [
         './**/*.{razor,cshtml,html}',
+        "./node_modules/flowbite/**/*.js"
     ],
     theme: {
         extend: {},
     },
-    plugins: [],
+    plugins: [
+        require('flowbite/plugin')
+    ],
 }
 
