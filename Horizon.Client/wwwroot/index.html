@@ -2,19 +2,31 @@
 <html lang="en">
 
 <head>
+    <!-- Meta Information -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Horizon.Client</title>
     <base href="/" />
+
+    <!-- Stylesheets -->
+    <!-- Blazorise Styles -->
+    <link rel="stylesheet" href="_content/Blazorise.Icons.FontAwesome/v6/css/all.min.css">
+    <link rel="stylesheet" href="_content/Blazorise/blazorise.css?v=1.7.1.0" />
+    <link rel="stylesheet" href="_content/Blazorise.Tailwind/blazorise.tailwind.prod.css?v=1.7.1.0" />
+    <!-- App-specific Styles -->
     <link rel="stylesheet" href="css/app.output.css" />
     <link rel="stylesheet" href="Horizon.Client.styles.css" />
+
+    <!-- PWA Manifest and Icons -->
     <link rel="manifest" href="manifest.webmanifest" />
     <link rel="apple-touch-icon" sizes="512x512" href="icon-512.png" />
     <link rel="apple-touch-icon" sizes="192x192" href="icon-192.png" />
 </head>
 
 <body>
+    <!-- Application Container -->
     <div id="app">
+        <!-- Loading Spinner -->
         <svg class="loading-progress">
             <circle r="40%" cx="50%" cy="50%" />
             <circle r="40%" cx="50%" cy="50%" />
@@ -22,14 +34,22 @@
         <div class="loading-progress-text"></div>
     </div>
 
+    <!-- Error UI -->
     <div id="blazor-error-ui">
         An unhandled error has occurred.
         <a href="." class="reload">Reload</a>
         <span class="dismiss">🗙</span>
     </div>
+
+    <!-- Scripts -->
+    <!-- Blazor Framework -->
     <script src="_framework/blazor.webassembly.js"></script>
+    <!-- Third-party Libraries -->
     <script src="lib/flowbite/dist/flowbite.min.js"></script>
-    <script>navigator.serviceWorker.register('service-worker.js');</script>
+    <!-- Service Worker Registration -->
+    <script>
+        navigator.serviceWorker.register('service-worker.js');
+    </script>
 </body>
 
 </html>
