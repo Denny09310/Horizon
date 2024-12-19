@@ -1,12 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Horizon", "Horizon\Horizon\Horizon.csproj", "{78918350-C883-474E-B39B-8DFC750CAD56}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Horizon.Client", "Horizon\Horizon.Client\Horizon.Client.csproj", "{4868FAC3-43FB-487D-8EA6-F3F0110BF360}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8C228A16-E8DF-403D-A933-768DA44E5AB3}"
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
@@ -16,20 +12,24 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Horizon", "Horizon\Horizon.csproj", "{FC93B1B6-4B45-4A29-B1AC-E40083E9700C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Horizon.Client", "Horizon.Client\Horizon.Client.csproj", "{DDF0F052-9948-494F-AFDF-9BFD8CE7CBE7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{78918350-C883-474E-B39B-8DFC750CAD56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{78918350-C883-474E-B39B-8DFC750CAD56}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{78918350-C883-474E-B39B-8DFC750CAD56}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{78918350-C883-474E-B39B-8DFC750CAD56}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4868FAC3-43FB-487D-8EA6-F3F0110BF360}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4868FAC3-43FB-487D-8EA6-F3F0110BF360}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4868FAC3-43FB-487D-8EA6-F3F0110BF360}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4868FAC3-43FB-487D-8EA6-F3F0110BF360}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC93B1B6-4B45-4A29-B1AC-E40083E9700C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC93B1B6-4B45-4A29-B1AC-E40083E9700C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC93B1B6-4B45-4A29-B1AC-E40083E9700C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC93B1B6-4B45-4A29-B1AC-E40083E9700C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDF0F052-9948-494F-AFDF-9BFD8CE7CBE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDF0F052-9948-494F-AFDF-9BFD8CE7CBE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDF0F052-9948-494F-AFDF-9BFD8CE7CBE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDF0F052-9948-494F-AFDF-9BFD8CE7CBE7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
